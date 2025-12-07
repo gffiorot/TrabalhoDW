@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Selecione Seu Plano</title>
+    <link rel="icon" href="IconFinal.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="IconFinal.png" alt="Programum Icon" class="logo">
+    </header>
+    <main>
+        <h1>Selecione Seu Plano e Forma de Pagamento</h1>
+        <p>Escolha o plano ideal para suas necessidades e a forma como deseja pagar.</p>
+
+        <div class="opcoes-plano">
+            <h3>Escolha a Duração do Acesso</h3>
+            
+            <div class="plano-item">
+                <input type="radio" id="plano1" name="plano" value="200.00" data-tempo="1 Mês">
+                <label for="plano1" class="plano-label">1 Mês (R$ 200,00)</label>
+            </div>
+            
+            <div class="plano-item">
+                <input type="radio" id="plano6" name="plano" value="600.00" data-tempo="6 Meses">
+                <label for="plano6" class="plano-label">6 Meses (R$ 600,00)</label>
+            </div>
+            
+            <div class="plano-item">
+                <input type="radio" id="plano12" name="plano" value="950.00" data-tempo="1 Ano">
+                <label for="plano12" class="plano-label">1 Ano (R$ 950,00)</label>
+            </div>
+            
+            <div class="plano-item">
+                <input type="radio" id="plano24" name="plano" value="1600.00" data-tempo="2 Anos">
+                <label for="plano24" class="plano-label">2 Anos (R$ 1.600,00)</label>
+            </div>
+        </div>
+
+        <div class="opcoes-pagamento">
+            <h3>Escolha a Forma de Pagamento</h3>
+            
+            <div class="pagamento-item">
+                <input type="radio" id="paypal" name="pagamento" value="PayPal">
+                <label for="paypal" class="pagamento-label">PayPal</label>
+            </div>
+            
+            <div class="pagamento-item">
+                <input type="radio" id="pix" name="pagamento" value="PIX">
+                <label for="pix" class="pagamento-label">PIX</label>
+            </div>
+            
+            <div class="pagamento-item">
+                <input type="radio" id="cartao" name="pagamento" value="Cartão de Crédito/Débito">
+                <label for="cartao" class="pagamento-label">Cartão de Crédito/Débito</label>
+            </div>
+        </div>
+        
+        <button class="botaoPagar">Pagar</button>
+
+    </main>
+    <script src="pagamento.js"></script>
+</body>
+</html>
