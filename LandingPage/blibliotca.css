@@ -94,14 +94,13 @@ p {
     color: #aaa; /* Cinza claro */
     margin: 5px 0;
 }
-
-/* AVALIAÇÃO (ESTRELAS) */
-.avaliacao {
+.progresso {
+    font-size: 0.8em;
+    color: #aaa; /* Cinza claro */
+    margin: 5px 0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 5px;
-    font-size: 0.85em;
-    margin-bottom: 15px;
 }
 
 .avaliacao .nota {
@@ -115,7 +114,7 @@ p {
 }
 
 /* O BOTÃO 'COMEÇAR AGORA' */
-.botao-comecar {
+.botao-continuar {
     background-color: transparent;
     border: 1px solid #00a5c8;
     color: #00a5c8;
@@ -133,18 +132,3 @@ p {
     color: white;
 }
 
-.barra-externa {
-  width: 280px; /* Largura total da barra */
-  height: 10px;
-  background-color: #eee; /* Cor de fundo */
-  border-radius: 10px;
-  overflow: hidden; /* Para o cantinho arredondado da interna */
-}
-
-.barra-interna {
-  height: 100%;
-  background-color: #4CAF50; /* Cor do progresso */
-  border-radius: 50px;
-  /* A largura (width) é definida no HTML (style="width: 70%;") para ser estática */
-  transition: width 0.5s ease; /* Opcional: para suavizar mudanças (não é estática, mas útil) */
-}
