@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="catalogo.css">
+    <link rel="stylesheet" href="blibliotca.css">
     <title>Catálogo de Cursos</title>
     <link rel="icon" href="IconFinal.png" type="image/x-icon">
 </head>
@@ -11,13 +11,15 @@
     <header>
         <img src="IconFinal.png" alt="Programum Icon" class="logo">
         <h2 class="botao-cursos"> Meus cursos</h2>
-        <h2 class = "botao-login" > Login</h2>
-        <h1 class="titulo-pagina">Catalogo</h1>
+        <h2 class = "botao-login" >    Login  </h2>
+        <h2 class = "botao-catalogo">Catalogo de Cursos </h2>
+        <h1 class="titulo-pagina">Meus Cursos</h1>
     </header> <main>
 
-        <h2 class="titulo-sessao">Cursos em alta</h2>
-
+        <h2 class="titulo-sessao">Continuar de Onde Parou:</h2>
+       
         <div class="catalogo-container">
+            
 
             <div class="curso-card">
                 <div class="curso-imagem">
@@ -26,12 +28,11 @@
                 <div class="curso-info">
                     <h3>Curso de Python 3 do básico ao avançado</h3>
                     <p class="instrutor">Peter Parker</p>
-                    <div class="avaliacao">
-                        <span class="nota">4,8</span>
-                        <span class="estrelas">⭐⭐⭐⭐⭐</span>
-                        <span class="qtd-reviews">(3.880)</span>
+                    <div class="progresso">
+                        <span class="restante">2 horas restante</span>
+                        <span class="percentual">90% porcento concluido</span>
                     </div>
-                    <button class="botao-comecar">Começar agora</button>
+                    <button class="botao-continuar">Continuar</button>
                 </div>
             </div>
 
@@ -42,12 +43,11 @@
                 <div class="curso-info">
                     <h3>Java COMPLETO Programação Orientada a Objetos</h3>
                     <p class="instrutor">Tim Drake</p>
-                    <div class="avaliacao">
-                        <span class="nota">4,8</span>
-                        <span class="estrelas">⭐⭐⭐⭐⭐</span>
-                        <span class="qtd-reviews">(5.518)</span>
+                    <div class="progresso">
+                        <span class="restante">10 horas restante</span>
+                        <span class="percentual">70% porcento concluido</span>
                     </div>
-                    <button class="botao-comecar">Começar agora</button>
+                    <button class="botao-continuar">Continuar</button>
                 </div>
             </div>
 
@@ -58,12 +58,11 @@
                 <div class="curso-info">
                     <h3>Curso de JavaScript e TypeScript do básico ao avançado</h3>
                     <p class="instrutor">Barbara Gordon</p>
-                    <div class="avaliacao">
-                        <span class="nota">4,8</span>
-                        <span class="estrelas">⭐⭐⭐⭐⭐</span>
-                        <span class="qtd-reviews">(3.763)</span>
+                    <div class="progresso">
+                        <span class="restante">2.5 horas restante</span>
+                        <span class="percentual">30% porcento concluido</span>
                     </div>
-                    <button class="botao-comecar">Começar agora</button>
+                    <button class="botao-continuar">Continuar</button>
                 </div>
             </div>
 
@@ -74,13 +73,27 @@
                 <div class="curso-info">
                     <h3>Algoritmos e Lógica de Programação - O Curso Completo</h3>
                     <p class="instrutor">Shuri</p>
-                    <div class="avaliacao">
-                        <span class="nota">4,8</span>
-                        <span class="estrelas">⭐⭐⭐⭐⭐</span>
-                        <span class="qtd-reviews">(3.412)</span>
+                    <div class="progresso">
+                        <span class="restante">0.5 horas restante</span>
+                        <span class="percentual">99% porcento concluido</span>
                     </div>
-                    <button class="botao-comecar">Começar agora</button>
+                    <button class="botao-continuar">Continuar</button>
                 </div>
+            </div>
+
+            <div class="cursos_concluidos" >
+                <h2 class="titulo-sessao">Cursos Concluídos:</h2>
+                <div class="curso-card">
+                    <div class="curso-imagem">
+                        <img src="https://via.placeholder.com/300x170/333/fff?text=HTML+e+CSS" alt="Curso de HTML e CSS">
+                    </div>
+                    <div class="curso-info">
+                        <h3>Curso Completo de HTML5 e CSS3 na Prática</h3>
+                        <p class="instrutor">Diana Prince</p>
+                        <div class="progresso">
+                            <span class="percentual">100% concluído</span>
+                        </div>
+                        <button class="botao-continuar">Revisitar Curso</button>
             </div>
 
         </div>

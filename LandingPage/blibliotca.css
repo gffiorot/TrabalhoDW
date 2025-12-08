@@ -7,6 +7,7 @@ body{
 header{
     background-color: #00a5c8;
     padding: 10px 20px;
+    
 }
 header .botao-cursos{
     color: white;
@@ -27,7 +28,6 @@ header .botao-catalogo{
     margin-left: 20px;
     cursor: pointer;
 }
-
 .logo{
   width: 70px;
   padding: 0;
@@ -113,14 +113,13 @@ p {
     color: #aaa; /* Cinza claro */
     margin: 5px 0;
 }
-
-/* AVALIAÇÃO (ESTRELAS) */
-.avaliacao {
+.progresso {
+    font-size: 0.8em;
+    color: #aaa; /* Cinza claro */
+    margin: 5px 0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 5px;
-    font-size: 0.85em;
-    margin-bottom: 15px;
 }
 
 .avaliacao .nota {
@@ -134,7 +133,7 @@ p {
 }
 
 /* O BOTÃO 'COMEÇAR AGORA' */
-.botao-comecar {
+.botao-continuar {
     background-color: transparent;
     border: 1px solid #00a5c8;
     color: #00a5c8;
@@ -151,3 +150,4 @@ p {
     background-color: #00a5c8;
     color: white;
 }
+
