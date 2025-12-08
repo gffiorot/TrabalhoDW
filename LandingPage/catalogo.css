@@ -9,6 +9,26 @@ header{
     padding: 10px 20px;
 }
 
+header .botao-cursos{
+    color: white;
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+header .botao-login{
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+header .botao-catalogo{
+    color: white;
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
 .logo{
   width: 70px;
   padding: 0;
