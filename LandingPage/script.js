@@ -1,6 +1,6 @@
 // Parte do index
 botao1 = document.querySelector('.botaoIniciar');
-paginaDestino1 = 'registro.html'; 
+paginaDestino1 = 'registro.php'; 
 if (botao1) {
     botao1.addEventListener('click', function() {
         window.location.href = paginaDestino1;
